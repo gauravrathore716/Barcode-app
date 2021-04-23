@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RPPLBARCODE</string>
+
+    <string name="btn_ok">OK</string>
+    <string name="msg_please_wait">Please wait…</string>
+    <string name="no_network_message">Check Internet Connection</string>
+    <string name="no_internet">No Internet</string>
+    <string name="default_error">Oups ! Une erreur s\'est produite !</string>
+    <string name="login">Login</string>
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="camera_permission_granted">camera_permission_granted</string>
+    <string name="dialog_title">Scan Result</string>
+    <string name="cancel">cancel</string>
+    <string name="exit_title">Exit</string>
+    <string name="Logout_title">Logout</string>
+    <string name="ok_title">save</string>
+    <string name="scan">Scan</string>
+    <string name="ok">ok</string>
+    <string name="show_password">Show Password</string>
+    <string name="forget_passsowrd">Forget Passsowrd?</string>
+    <string name="details">Details</string>
+    <string name="no_data_found">No Data Found</string>
+</resources>

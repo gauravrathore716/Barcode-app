@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_margin="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Container No :"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtConter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_margin="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Supplier Reel No :"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/txtSuppierNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           android:layout_marginTop="0dp"
+           android:layout_margin="0dp">
+
+           <TextView
+               android:id="@+id/gsm"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Supp. Net Weight :"
+               android:textColor="#000"
+               android:textSize="20sp"/>
+
+           <TextView
+               android:id="@+id/txtgrooswt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="30dp"
+               android:textColor="#000"
+               android:textSize="20sp" />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           android:layout_marginTop="0dp"
+           android:layout_margin="0dp">
+
+           <TextView
+               android:id="@+id/gsmm"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Supp. Gross Weight :"
+               android:textColor="#000"
+               android:textSize="20sp"/>
+
+           <TextView
+               android:id="@+id/txtgrooswtt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="30dp"
+               android:textColor="#000"
+               android:textSize="20sp" />
+
+       </LinearLayout>
+
+
+
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           android:layout_marginTop="0dp"
+           android:layout_margin="0dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Receipt Weight :"
+               android:textColor="#000"
+               android:textSize="20sp"/>
+
+           <TextView
+               android:id="@+id/txtsppnetwt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="30dp"
+               android:textColor="#000"
+               android:textSize="20sp"/>
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           android:layout_marginTop="0dp"
+           android:layout_margin="0dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="GSM :"
+               android:textColor="#000"
+               android:textSize="20sp"/>
+
+           <TextView
+               android:id="@+id/txtreel"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="30dp"
+               android:textColor="#000"
+               android:textSize="20sp">
+
+           </TextView>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           android:layout_marginTop="0dp"
+           android:layout_margin="0dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Width(MM) :"
+               android:textColor="#000"
+               android:textSize="20sp"/>
+
+           <TextView
+               android:id="@+id/txtreelmm"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="30dp"
+               android:textColor="#000"
+               android:textSize="20sp" />
+
+       </LinearLayout>
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           android:layout_marginTop="0dp"
+           android:layout_margin="0dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Depth Cut :"
+               android:textColor="#000"
+               android:textSize="20sp"/>
+
+           <TextView
+               android:id="@+id/txtDepthcut"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="30dp"
+               android:textColor="#000"
+               android:textSize="20sp" />
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           android:layout_marginTop="0dp"
+           android:layout_margin="0dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Damage Reason :"
+               android:textColor="#000"
+               android:textSize="20sp"/>
+
+           <TextView
+               android:id="@+id/txtDepthcutreason"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="30dp"
+               android:textColor="#000"
+               android:textSize="20sp" />
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           android:layout_marginTop="0dp"
+           android:layout_margin="0dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Press Reel No :"
+               android:textColor="#000"
+               android:textSize="20sp"/>
+
+           <TextView
+               android:id="@+id/pressrealno"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="30dp"
+               android:textColor="#000"
+               android:textSize="20sp" />
+
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+
+</layout>
